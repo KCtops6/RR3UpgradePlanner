@@ -1,0 +1,48 @@
+{
+  "car_name": "LAMBORGHINI COUNTACH LPI 800-4",
+  "pr_stock": 67.6,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 85000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 80 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 191300, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 185 },
+      { "level": 5, "pr_increase": 0.7, "cost_dollars": 430400, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 79100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 178000, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 175 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 62800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 60 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 141400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 135 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 318200, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 72500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 70 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 163200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 160 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 71700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 70 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 161300, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 55400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 50 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 124700, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 66500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 65 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 149700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 145 }
+    ]
+  }
+}
