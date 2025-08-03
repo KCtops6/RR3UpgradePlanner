@@ -1,0 +1,48 @@
+{
+  "car_name": "KOENIGSEGG JESKO",
+  "pr_stock": 84.1,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 127500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 100 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 286900, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 230 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 645500, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 118600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 95 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 266900, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 215 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 94200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 212100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 170 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 477100, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 108800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 85 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 244700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 195 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 107600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 85 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 242000, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 83200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 65 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 187100, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 99800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 80 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 224500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 180 }
+    ]
+  }
+}
