@@ -1,0 +1,48 @@
+{
+  "car_name": "BMW M3 GTR STREET",
+  "pr_stock": 46.5,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 63200, "cost_gold": 30 },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 46 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 142300, "cost_gold": 70 },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 105 },
+      { "level": 5, "pr_increase": 0.7, "cost_dollars": 320100, "cost_gold": 155 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 58800, "cost_gold": 28 },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 42 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 132400, "cost_gold": 65 },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 95 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 46700, "cost_gold": 22 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 34 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 105100, "cost_gold": 50 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 236600, "cost_gold": 115 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 53900, "cost_gold": 26 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 40 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 121300, "cost_gold": 60 },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 90 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 53300, "cost_gold": 26 },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 38 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 120000, "cost_gold": 55 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 41200, "cost_gold": 20 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 30 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 92800, "cost_gold": 46 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 49500, "cost_gold": 24 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 36 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 111300, "cost_gold": 55 },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 80 }
+    ]
+  }
+}
