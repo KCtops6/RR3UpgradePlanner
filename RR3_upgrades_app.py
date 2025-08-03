@@ -125,6 +125,7 @@ def get_update_folders():
     return [name for name in os.listdir(base_dir)
             if os.path.isdir(os.path.join(base_dir, name)) and name.startswith("v")]
 
+
 # --- GUI class ---
 
 class RR3HelperGUI:
@@ -165,9 +166,15 @@ class RR3HelperGUI:
         self.discount_entry.insert(0, "0")
         self.discount_entry.grid(row=0, column=9, padx=5)
 
+        self.pr_entry.bind("<KeyRelease>", self.validate_target_pr)
+        self.update_combo.bind("<<ComboboxSelected>>", self.validate_target_pr)
+        self.car_combo.bind("<<ComboboxSelected>>", self.validate_target_pr)
+        self.start_tree_entry.bind("<KeyRelease>", self.validate_target_pr)
+
         # Run button
-        run_button = ttk.Button(top_frame, text="Calculate", command=self.run_calculation)
-        run_button.grid(row=0, column=10, padx=10)
+        self.run_button = ttk.Button(top_frame, text="Calculate", command=self.run_calculation)
+        self.run_button.grid(row=0, column=10, padx=10)
+        self.run_button.config(state=tk.DISABLED)  # Start disabled
 
         # === Bottom Section ===
         bottom_frame = ttk.Frame(root, padding=10)
@@ -330,6 +337,53 @@ class RR3HelperGUI:
         self.summary_text.insert(tk.END, "\n".join(summary_lines))
         upgrade_tree_str = format_upgrade_tree(final_tree)
         self.summary_text.insert(tk.END, f"\nUpgrade tree: {upgrade_tree_str}\n")
+
+    def validate_target_pr(self, event=None):
+        target_pr_str = self.pr_entry.get().strip()
+        update = self.update_var.get()
+        car = self.car_var.get()
+        car_file = self.car_file_map.get(car)
+
+        # Disable if no update/car selected or car file missing
+        if not update or not car or not car_file:
+            self.run_button.config(state=tk.DISABLED)
+            return
+
+        update_path = resource_path(update)
+        car_path = os.path.join(update_path, car_file)
+        try:
+            with open(car_path, "r", encoding="utf-8") as f:
+                car_data = json.load(f)
+        except Exception:
+            self.run_button.config(state=tk.DISABLED)
+            return
+
+        upgrade_categories = list(car_data["upgrades"].keys())
+        base_pr = car_data.get("pr_stock", 0)
+        max_pr_gain = sum(
+            upgrade["pr_increase"]
+            for category in car_data["upgrades"].values()
+            for upgrade in category
+        )
+        max_pr = base_pr + max_pr_gain
+
+        # Accept "max" or "all" as valid inputs
+        if target_pr_str.lower() in ("max", "all"):
+            self.run_button.config(state=tk.NORMAL)
+            return
+
+        # Validate numeric input
+        try:
+            target_pr_val = float(target_pr_str)
+        except ValueError:
+            self.run_button.config(state=tk.DISABLED)
+            return
+
+        # Disable if <= base_pr or > max_pr or <=0
+        if target_pr_val <= base_pr or target_pr_val > max_pr or target_pr_val <= 0:
+            self.run_button.config(state=tk.DISABLED)
+        else:
+            self.run_button.config(state=tk.NORMAL)
 
 if __name__ == "__main__":
     root = tk.Tk()
