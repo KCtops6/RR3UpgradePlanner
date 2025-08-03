@@ -1,0 +1,47 @@
+{
+  "car_name": "MAZDA 787B",
+  "pr_stock": 68.8,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 106300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 239100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 170 },
+      { "level": 5, "pr_increase": 0.8, "cost_dollars": 537900, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 98900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 70 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 222500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 160 },
+      { "level": 5, "pr_increase": 0.7, "cost_dollars": 500500, "cost_gold": null }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 78500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 55 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 176700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 125 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 90600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": 136000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 95 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 89600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 65 },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": 201700, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 69300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 104000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 233900, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 83200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 60 },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": 187100, "cost_gold": null }
+    ]
+  }
+}
