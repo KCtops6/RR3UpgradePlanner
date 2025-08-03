@@ -18,7 +18,7 @@ dist/
 # Ignore folders for specific updates (if you want to exclude them)
 # Uncomment the next line if you want to ignore all version folders:
 # v*/
-
+git rm -r --cached .
 # Ignore VS Code settings
 .vscode/
 

@@ -1,0 +1,47 @@
+{
+  "car_name": "McLAREN 600LT",
+  "pr_stock": 54.8,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 93500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 50 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 210400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 110 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 473400, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 87000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 46 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 195800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 105 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 69100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 36 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 155500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 80 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 79800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 42 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 179500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 95 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 78900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 42 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 177500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 95 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 61000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 32 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 137200, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 73200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 38 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 164700, "cost_gold": null }
+    ]
+  }
+}
