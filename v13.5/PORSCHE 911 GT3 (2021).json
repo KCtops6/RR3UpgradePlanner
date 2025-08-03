@@ -1,0 +1,48 @@
+{
+  "car_name": "PORSCHE 911 GT3 (2021)",
+  "pr_stock": 49.3,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 74400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 46 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 167400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 100 },
+      { "level": 5, "pr_increase": 0.7, "cost_dollars": 376600, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 69200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 42 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 155700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 95 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 55000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 34 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 123700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 278300, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 63400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 38 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 142800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 85 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 62700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 38 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 141200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 85 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 48500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 30 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 109100, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 58200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 36 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 131000, "cost_gold": null }
+    ]
+  }
+}
