@@ -1,0 +1,46 @@
+{
+  "car_name": "PORSCHE TAYCAN TURBO GT",
+  "pr_stock": 55.1,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 66900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 46 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 150600, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 105 },
+      { "level": 5, "pr_increase": 0.7, "cost_dollars": 338900, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 240 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 62300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 44 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 140100, "cost_gold": null }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 49500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 35 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 111300, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 250500, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 57100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 40 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 128500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 90 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 289100, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 43700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 30 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 98200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 70 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 221000, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 52400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 36 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 117900, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 80 }
+    ]
+  }
+}
