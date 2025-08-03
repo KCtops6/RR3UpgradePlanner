@@ -166,11 +166,10 @@ class RR3HelperGUI:
         self.discount_entry.insert(0, "0")
         self.discount_entry.grid(row=0, column=9, padx=5)
 
-        self.pr_entry.bind("<KeyRelease>", self.combined_validation)
-        self.update_combo.bind("<<ComboboxSelected>>", self.combined_validation)
-        self.car_combo.bind("<<ComboboxSelected>>", self.combined_validation)
-        self.start_tree_entry.bind("<KeyRelease>", self.combined_validation)
-        self.discount_entry.bind("<KeyRelease>", self.combined_validation)
+        self.pr_entry.bind("<KeyRelease>", self.validate_target_pr)
+        self.update_combo.bind("<<ComboboxSelected>>", self.validate_target_pr)
+        self.car_combo.bind("<<ComboboxSelected>>", self.validate_target_pr)
+        self.start_tree_entry.bind("<KeyRelease>", self.validate_target_pr)
 
         # Run button
         self.run_button = ttk.Button(top_frame, text="Calculate", command=self.run_calculation)
@@ -385,26 +384,6 @@ class RR3HelperGUI:
             self.run_button.config(state=tk.DISABLED)
         else:
             self.run_button.config(state=tk.NORMAL)
-
-    def validate_discount(self, event=None):
-        discount_str = self.discount_entry.get().strip()
-
-        try:
-            discount_val = float(discount_str)
-            if discount_val < 0 or discount_val > 100:
-                self.run_button.config(state=tk.DISABLED)
-                return False
-        except ValueError:
-            self.run_button.config(state=tk.DISABLED)
-            return False
-
-        return True
-
-    def combined_validation(self, event=None):
-        discount_ok = self.validate_discount()
-        if not discount_ok:
-            return
-        self.validate_target_pr()
 
 if __name__ == "__main__":
     root = tk.Tk()
