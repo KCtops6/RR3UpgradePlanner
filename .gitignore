@@ -1,0 +1,29 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore executables
+*.exe
+
+# Ignore build artifacts
+build/
+dist/
+*.spec
+
+# Ignore folders for specific updates (if you want to exclude them)
+# Uncomment the next line if you want to ignore all version folders:
+# v*/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+old versions/
