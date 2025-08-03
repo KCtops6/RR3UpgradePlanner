@@ -328,7 +328,8 @@ class RR3HelperGUI:
 
         _, summary_lines = print_upgrade_summary_to_strings(upgrade_plan, final_pr, discount, base_pr)
         self.summary_text.insert(tk.END, "\n".join(summary_lines))
-
+        upgrade_tree_str = format_upgrade_tree(final_tree)
+        self.summary_text.insert(tk.END, f"\nUpgrade tree: {upgrade_tree_str}\n")
 
 if __name__ == "__main__":
     root = tk.Tk()
