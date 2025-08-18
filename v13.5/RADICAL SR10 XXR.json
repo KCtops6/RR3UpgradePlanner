@@ -16,7 +16,7 @@
       { "level": 4, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 190 }
     ],
     "body": [
-      { "level": 1, "pr_increase": 0.4, "cost_dollars": 108937, "cost_gold": null },
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 108937, "cost_gold": null },
       { "level": 2, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 95 },
       { "level": 3, "pr_increase": 0.3, "cost_dollars": 233436, "cost_gold": null },
       { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 170 }
@@ -39,7 +39,7 @@
       { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 135 }
     ],
     "tires_wheels": [
-      { "level": 1, "pr_increase": 0.4, "cost_dollars": 103723, "cost_gold": null },
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 103723, "cost_gold": null },
       { "level": 2, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 90 },
       { "level": 3, "pr_increase": 0.3, "cost_dollars": 222264, "cost_gold": null },
       { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 160 }
