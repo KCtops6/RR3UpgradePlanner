@@ -1,0 +1,10 @@
+{
+  "series_name": "Pure Stock Challenge",
+  "cars": [
+    "NISSAN SILVIA (S15)",
+    "FORD FOCUS RS",
+    "DODGE CHALLENGER RT",
+    "BMW 1 SERIES M COUPE"
+  ],
+  "max_required_pr": 22.0
+}

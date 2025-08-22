@@ -1,0 +1,28 @@
+{
+  "car_name": "DODGE CHALLENGER RT",
+  "pr_stock": 12.2,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 4200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": 6300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": 9600, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 3900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": 5900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 8900, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 2800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 4100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 6300, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 3300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": 5000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 7500, "cost_gold": null }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "car_name": "NISSAN SILVIA (S15)",
+  "pr_stock": 1.7,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 1.1, "cost_dollars": 3900, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.1, "cost_dollars": 5800, "cost_gold": null },
+      { "level": 3, "pr_increase": 1.1, "cost_dollars": 8800, "cost_gold": null },
+      { "level": 4, "pr_increase": 1.2, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 1.2, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.3, "cost_dollars": 5400, "cost_gold": null },
+      { "level": 3, "pr_increase": 1.2, "cost_dollars": 8200, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 1.2, "cost_dollars": 2500, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.1, "cost_dollars": 3800, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 1.3, "cost_dollars": 3000, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.4, "cost_dollars": 4600, "cost_gold": null }
+    ]
+  }
+}

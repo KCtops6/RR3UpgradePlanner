@@ -1,0 +1,28 @@
+{
+  "car_name": "BMW 1 SERIES M COUPE",
+  "pr_stock": 18.2,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 4500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": 6800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": 10300, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 4200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": 6300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 9600, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 3000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 4400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 6700, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": 5300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": 8000, "cost_gold": null }
+    ]
+  }
+}

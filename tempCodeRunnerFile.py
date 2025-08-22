@@ -85,18 +85,16 @@ def calculate_min_cost(car_data, current_tree, target_pr, discount_percent):
 
     return [], float(current_pr_val), list(start_state)
 
-def print_upgrade_summary_to_strings(upgrade_plan, final_pr, discount_percent, base_pr):
+def print_upgrade_summary_to_strings(upgrade_plan, final_pr, discount_percent, base_pr, final_tree):
     total_dollars = 0
     total_gold = 0
     running_pr = Decimal(str(base_pr))
 
     lines = []
     lines.append("Upgrade plan summary:")
-    lines.append("-" * 60)
+    lines.append("-" * 10)
 
     for step in upgrade_plan:
-        cat = step["category"].title()
-        lvl = step["level"]
         pr_inc = Decimal(str(step["pr_increase"]))
         cost = step["cost"]
         currency = step["currency"]
@@ -112,6 +110,8 @@ def print_upgrade_summary_to_strings(upgrade_plan, final_pr, discount_percent, b
     lines.append(f"Base PR: {base_pr:.2f}")
     lines.append(f"Total PR Increase: {float(total_pr_increase):.2f}")
     lines.append(f"Final PR: {final_pr:.2f}")
+    # NEW LINE: final tree string
+    lines.append(f"Final upgrade tree: {format_upgrade_tree(final_tree)}")
     lines.append(f"Discount applied: {discount_percent}%")
     lines.append(f"Total cost: ${total_dollars:,} + {total_gold}G")
 
@@ -121,9 +121,12 @@ def format_upgrade_tree(tree):
     return "".join(str(level) for level in tree)
 
 def get_update_folders():
-    base_dir = resource_path(".")
-    return [name for name in os.listdir(base_dir)
-            if os.path.isdir(os.path.join(base_dir, name)) and name.startswith("v")]
+    """Return list of update files inside updates/ folder"""
+    updates_dir = resource_path("updates")
+    if not os.path.isdir(updates_dir):
+        return []
+    return [f[:-5] for f in os.listdir(updates_dir) if f.endswith(".json")]
+
 
 
 # --- GUI class ---
@@ -166,10 +169,11 @@ class RR3HelperGUI:
         self.discount_entry.insert(0, "0")
         self.discount_entry.grid(row=0, column=9, padx=5)
 
-        self.pr_entry.bind("<KeyRelease>", self.validate_target_pr)
-        self.update_combo.bind("<<ComboboxSelected>>", self.validate_target_pr)
-        self.car_combo.bind("<<ComboboxSelected>>", self.validate_target_pr)
-        self.start_tree_entry.bind("<KeyRelease>", self.validate_target_pr)
+        self.pr_entry.bind("<KeyRelease>", self.combined_validation)
+        self.update_combo.bind("<<ComboboxSelected>>", self.combined_validation)
+        self.car_combo.bind("<<ComboboxSelected>>", self.combined_validation)
+        self.start_tree_entry.bind("<KeyRelease>", self.combined_validation)
+        self.discount_entry.bind("<KeyRelease>", self.combined_validation)
 
         # Run button
         self.run_button = ttk.Button(top_frame, text="Calculate", command=self.run_calculation)
@@ -205,45 +209,53 @@ class RR3HelperGUI:
         self.update_combo['values'] = updates
 
     def load_cars(self):
-        """Populate car list from selected update folder"""
+        """Populate car list, filtered by update if selected"""
         update = self.update_var.get()
-        if not update:
+        cars_dir = resource_path("cars")
+
+        if not os.path.isdir(cars_dir):
             self.car_combo['values'] = []
             return
 
-        update_path = resource_path(update)
-        if not os.path.isdir(update_path):
-            self.car_combo['values'] = []
-            return
+        all_cars = []
+        # load car names from cars/ JSONs
+        for f in os.listdir(cars_dir):
+            if f.endswith(".json"):
+                try:
+                    with open(os.path.join(cars_dir, f), "r", encoding="utf-8") as file:
+                        data = json.load(file)
+                        car_name = data.get("car_name", f[:-5])
+                        all_cars.append(car_name)
+                except Exception:
+                    pass
 
-        car_files = [f for f in os.listdir(update_path) if f.endswith(".json")]
-        car_names = []
-        self.car_file_map.clear()
-        for f in car_files:
-            try:
-                with open(os.path.join(update_path, f), "r", encoding="utf-8") as file:
-                    data = json.load(file)
-                    car_name = data.get("car_name", f)
-                    car_names.append(car_name)
-                    self.car_file_map[car_name] = f
-            except Exception:
-                pass
-        self.car_combo['values'] = car_names
+        # if update selected, filter
+        if update:
+            update_file = resource_path(f"updates/{update}.json")
+            if os.path.isfile(update_file):
+                try:
+                    with open(update_file, "r", encoding="utf-8") as uf:
+                        update_data = json.load(uf)
+                        cars_in_update = update_data.get("cars", [])
+                        all_cars = [c for c in all_cars if c in cars_in_update]
+                except Exception:
+                    pass
+
+        self.car_combo['values'] = sorted(all_cars)
 
     def run_calculation(self):
         update = self.update_var.get()
         car = self.car_var.get()
-        car_file = self.car_file_map.get(car)
+        if not car:
+            messagebox.showerror("Missing Input", "Please select a car.")
+            return
+
         start_tree = self.start_tree_entry.get().strip()
-        target_pr = self.pr_entry.get().strip()
+        target_pr_str = self.pr_entry.get().strip()
         discount = self.discount_entry.get().strip()
 
         self.plan_tree.delete(*self.plan_tree.get_children())
         self.summary_text.delete(1.0, tk.END)
-
-        if not update or not car or not car_file or not target_pr:
-            messagebox.showerror("Missing Input", "Please fill in all required fields.")
-            return
 
         try:
             discount = float(discount)
@@ -251,8 +263,8 @@ class RR3HelperGUI:
             messagebox.showerror("Invalid Input", "Discount must be a number.")
             return
 
-        update_path = resource_path(update)
-        car_path = os.path.join(update_path, car_file)
+        # Load car data
+        car_path = resource_path(f"cars/{car}.json")
         try:
             with open(car_path, "r", encoding="utf-8") as f:
                 car_data = json.load(f)
@@ -260,97 +272,79 @@ class RR3HelperGUI:
             messagebox.showerror("Error", f"Failed to load car data: {e}")
             return
 
-        upgrade_categories = list(car_data["upgrades"].keys())
-        expected_length = len(upgrade_categories)
-
+        # Build start tree
+        categories = list(car_data["upgrades"].keys())
         if start_tree.lower() == "stock":
-            current_tree = [0] * expected_length
-        else:
-            if len(start_tree) != expected_length or not start_tree.isdigit():
-                messagebox.showerror("Invalid Input", f"Start Tree must be 'stock' or a digit string of length {expected_length}")
-                return
-            current_tree = [int(c) for c in start_tree]
-
-        max_pr_gain = sum(
-            upgrade["pr_increase"]
-            for category in car_data["upgrades"].values()
-            for upgrade in category
-        )
-        base_pr = car_data.get("pr_stock", 0)
-
-        if target_pr.lower() in ("max", "all"):
-            target_pr_val = base_pr + max_pr_gain
+            current_tree = [0] * len(categories)
         else:
             try:
-                target_pr_val = float(target_pr)
-                if target_pr_val <= 0:
+                current_tree = [int(x) for x in start_tree]
+                if len(current_tree) != len(categories):
                     raise ValueError
             except ValueError:
-                messagebox.showerror("Invalid Input", "Target PR must be a positive number or 'max'.")
+                messagebox.showerror("Invalid Input", f"Start tree must be 'stock' or {len(categories)} digits long.")
                 return
 
-        upgrade_plan, final_pr, final_tree = calculate_min_cost(car_data, current_tree, target_pr_val, discount)
+        # Target PR
+        base_pr = car_data.get("pr_stock", 0)
+        if target_pr_str.lower() in ("max", "all"):
+            max_pr_gain = sum(
+                upgrade["pr_increase"]
+                for category in car_data["upgrades"].values()
+                for upgrade in category
+            )
+            target_pr = base_pr + max_pr_gain
+        else:
+            try:
+                target_pr = float(target_pr_str)
+            except ValueError:
+                messagebox.showerror("Invalid Input", "Target PR must be a number or 'max'.")
+                return
 
+        # Run the calculation
+        plan, final_pr, final_tree = calculate_min_cost(car_data, current_tree, target_pr, discount)
+
+        # Fill the Treeview with steps
+        running_pr = Decimal(str(base_pr))
         total_dollars = 0
         total_gold = 0
-        running_pr = Decimal(str(base_pr))
-
-        # Show starting PR and installed upgrades in summary
-        self.summary_text.insert(tk.END, f"Base PR: {base_pr:.2f}\n")
-        starting_pr_val = base_pr + sum(
-            car_data["upgrades"][upgrade_categories[i]][lvl-1]["pr_increase"] if lvl > 0 else 0
-            for i, lvl in enumerate(current_tree)
-        )
-        self.summary_text.insert(tk.END, f"Starting PR (with installed upgrades): {starting_pr_val:.2f}\n")
-        self.summary_text.insert(tk.END, f"Installed Upgrades:\n")
-        for cat, lvl in zip(upgrade_categories, current_tree):
-            pr_inc = 0.0
-            if lvl > 0:
-                pr_inc = sum(up["pr_increase"] for up in car_data["upgrades"][cat][:lvl])
-            self.summary_text.insert(tk.END, f"  {cat}: level {lvl} (+{pr_inc:.1f} PR)\n")
-        self.summary_text.insert(tk.END, "\nUpgrade plan:\n")
-
-        for step in upgrade_plan:
+        for step in plan:
             cat = step["category"].title()
             lvl = step["level"]
-            pr_inc = Decimal(str(step["pr_increase"]))
+            pr_inc = step["pr_increase"]
             cost = step["cost"]
-            currency = step["currency"]
+            curr = step["currency"]
 
-            running_pr += pr_inc
-            if currency == "$":
+            running_pr += Decimal(str(pr_inc))
+            if curr == "$":
                 total_dollars += cost
+                cost_str = f"${cost}"
             else:
                 total_gold += cost
+                cost_str = f"{cost}G"
 
-            cost_str = f"{currency}{cost:,}"
-            total_dollars_str = f"${total_dollars:,}"
-            total_gold_str = f"{total_gold}G"
+            self.plan_tree.insert(
+                "", "end",
+                values=(f"{cat} {lvl}", f"+{pr_inc:.2f}", f"{running_pr:.2f}", cost_str, f"${total_dollars:,}", f"{total_gold}G")
+            )
 
-            cat_lvl_str = f"{cat} {lvl}"
-            pr_inc_str = f"+{float(pr_inc):.1f}"
-            total_pr_str = f"{float(running_pr):.1f}"
+        # Print summary on right
+        _, summary_lines = print_upgrade_summary_to_strings(plan, final_pr, discount, base_pr, final_tree)
 
-            self.plan_tree.insert("", tk.END, values=(cat_lvl_str, pr_inc_str, total_pr_str, cost_str, total_dollars_str, total_gold_str))
-
-        _, summary_lines = print_upgrade_summary_to_strings(upgrade_plan, final_pr, discount, base_pr)
-        self.summary_text.insert(tk.END, "\n".join(summary_lines))
-        upgrade_tree_str = format_upgrade_tree(final_tree)
-        self.summary_text.insert(tk.END, f"\nUpgrade tree: {upgrade_tree_str}\n")
+        for line in summary_lines:
+            self.summary_text.insert(tk.END, line + "\n")
 
     def validate_target_pr(self, event=None):
         target_pr_str = self.pr_entry.get().strip()
-        update = self.update_var.get()
         car = self.car_var.get()
-        car_file = self.car_file_map.get(car)
 
-        # Disable if no update/car selected or car file missing
-        if not update or not car or not car_file:
+        # disable if no car selected
+        if not car:
             self.run_button.config(state=tk.DISABLED)
             return
 
-        update_path = resource_path(update)
-        car_path = os.path.join(update_path, car_file)
+        # load car file
+        car_path = resource_path(f"cars/{car}.json")
         try:
             with open(car_path, "r", encoding="utf-8") as f:
                 car_data = json.load(f)
@@ -358,7 +352,6 @@ class RR3HelperGUI:
             self.run_button.config(state=tk.DISABLED)
             return
 
-        upgrade_categories = list(car_data["upgrades"].keys())
         base_pr = car_data.get("pr_stock", 0)
         max_pr_gain = sum(
             upgrade["pr_increase"]
@@ -367,27 +360,47 @@ class RR3HelperGUI:
         )
         max_pr = base_pr + max_pr_gain
 
-        # Accept "max" or "all" as valid inputs
+        # allow special inputs
         if target_pr_str.lower() in ("max", "all"):
             self.run_button.config(state=tk.NORMAL)
             return
 
-        # Validate numeric input
+        # validate numeric input
         try:
             target_pr_val = float(target_pr_str)
         except ValueError:
             self.run_button.config(state=tk.DISABLED)
             return
 
-        # Disable if <= base_pr or > max_pr or <=0
+        # check valid range
         if target_pr_val <= base_pr or target_pr_val > max_pr or target_pr_val <= 0:
             self.run_button.config(state=tk.DISABLED)
         else:
             self.run_button.config(state=tk.NORMAL)
+
+    def validate_discount(self, event=None):
+        discount_str = self.discount_entry.get().strip()
+
+        try:
+            discount_val = float(discount_str)
+            if discount_val < 0 or discount_val > 100:
+                self.run_button.config(state=tk.DISABLED)
+                return False
+        except ValueError:
+            self.run_button.config(state=tk.DISABLED)
+            return False
+
+        return True
+
+    def combined_validation(self, event=None):
+        discount_ok = self.validate_discount()
+        if not discount_ok:
+            return
+        self.validate_target_pr()
 
 if __name__ == "__main__":
     root = tk.Tk()
     app = RR3HelperGUI(root)
     root.mainloop()
 
-# pyinstaller --onefile --windowed --add-data "vXX.X;vXX.X" RR3_upgrades_app_vXX.X.py
+# pyinstaller --onefile --windowed --add-data "vXX.X;vXX.X" RR3_upgrades_app.py
