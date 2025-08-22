@@ -1,0 +1,188 @@
+{
+  "car_name": "PORSCHE 911 RSR (2021)",
+  "upgrades": {
+    "engine": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 81866,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 16
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 175428,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 28
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.7,
+        "cost_dollars": 350856,
+        "cost_gold": null
+      }
+    ],
+    "drivetrain": [
+      {
+        "level": 1,
+        "pr_increase": 0.8,
+        "cost_dollars": 80684,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 16
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.8,
+        "cost_dollars": 172894,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 28
+      }
+    ],
+    "body": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 73366,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 14
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 157212,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 26
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.5,
+        "cost_dollars": 314424,
+        "cost_gold": null
+      }
+    ],
+    "suspension": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 74009,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 15
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 158590,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 26
+      }
+    ],
+    "exhaust": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 60023,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 12
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 128621,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 20
+      }
+    ],
+    "brakes": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 58212,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 10
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 124740,
+        "cost_gold": null
+      }
+    ],
+    "tires_wheels": [
+      {
+        "level": 1,
+        "pr_increase": 0.8,
+        "cost_dollars": 69854,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 14
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.8,
+        "cost_dollars": 149688,
+        "cost_gold": null
+      }
+    ]
+  },
+  "pr_stock": 63.7
+}

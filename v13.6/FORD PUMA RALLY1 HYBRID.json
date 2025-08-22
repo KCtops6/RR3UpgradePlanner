@@ -1,0 +1,188 @@
+{
+  "car_name": "FORD PUMA RALLY1 HYBRID",
+  "upgrades": {
+    "engine": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 61400,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 44
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 131571,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 75
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.6,
+        "cost_dollars": 263142,
+        "cost_gold": null
+      },
+      {
+        "level": 6,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 145
+      },
+      {
+        "level": 7,
+        "pr_increase": 0.5,
+        "cost_dollars": 394713,
+        "cost_gold": null
+      }
+    ],
+    "drivetrain": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 60513,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 42
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 129670,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 75
+      }
+    ],
+    "body": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 55024,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 38
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 117909,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 70
+      }
+    ],
+    "suspension": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 55507,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 40
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 118943,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 70
+      }
+    ],
+    "exhaust": [
+      {
+        "level": 1,
+        "pr_increase": 0.8,
+        "cost_dollars": 45017,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 32
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 96466,
+        "cost_gold": null
+      }
+    ],
+    "brakes": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 43659,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 30
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 93555,
+        "cost_gold": null
+      }
+    ],
+    "tires_wheels": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 52391,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 38
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 112266,
+        "cost_gold": null
+      }
+    ]
+  },
+  "pr_stock": 42.9
+}

@@ -1,0 +1,188 @@
+{
+  "car_name": "ACURA ARX-06",
+  "upgrades": {
+    "engine": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 85278,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 80
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 182738,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 145
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.6,
+        "cost_dollars": 365475,
+        "cost_gold": null
+      }
+    ],
+    "drivetrain": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 84046,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 80
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 180098,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 145
+      }
+    ],
+    "body": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 76423,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 75
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 163763,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 130
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.5,
+        "cost_dollars": 327525,
+        "cost_gold": null
+      }
+    ],
+    "suspension": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 77092,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 75
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 165198,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 130
+      }
+    ],
+    "exhaust": [
+      {
+        "level": 1,
+        "pr_increase": 0.8,
+        "cost_dollars": 62524,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 60
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.8,
+        "cost_dollars": 133980,
+        "cost_gold": null
+      }
+    ],
+    "brakes": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 60638,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 55
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 129938,
+        "cost_gold": null
+      }
+    ],
+    "tires_wheels": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 72765,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 70
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 155925,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 125
+      }
+    ]
+  },
+  "pr_stock": 84.5
+}

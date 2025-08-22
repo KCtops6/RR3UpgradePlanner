@@ -1,0 +1,188 @@
+{
+  "car_name": "FORD GT LE MANS (2019)",
+  "upgrades": {
+    "engine": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 132800,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 65
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 298900,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 145
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.5,
+        "cost_dollars": 672400,
+        "cost_gold": null
+      }
+    ],
+    "drivetrain": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 123600,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 60
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 278100,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 135
+      }
+    ],
+    "body": [
+      {
+        "level": 1,
+        "pr_increase": 0.4,
+        "cost_dollars": 98200,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.4,
+        "cost_dollars": null,
+        "cost_gold": 48
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.3,
+        "cost_dollars": 220900,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.3,
+        "cost_dollars": null,
+        "cost_gold": 110
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.4,
+        "cost_dollars": 497000,
+        "cost_gold": null
+      }
+    ],
+    "suspension": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 113300,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 55
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 254900,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 125
+      }
+    ],
+    "exhaust": [
+      {
+        "level": 1,
+        "pr_increase": 0.4,
+        "cost_dollars": 112000,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.4,
+        "cost_dollars": null,
+        "cost_gold": 55
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 252100,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 125
+      }
+    ],
+    "brakes": [
+      {
+        "level": 1,
+        "pr_increase": 0.4,
+        "cost_dollars": 86600,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 42
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.4,
+        "cost_dollars": 194900,
+        "cost_gold": null
+      }
+    ],
+    "tires_wheels": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 104000,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 50
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 233900,
+        "cost_gold": null
+      }
+    ]
+  },
+  "pr_stock": 79.2
+}

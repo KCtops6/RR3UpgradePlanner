@@ -1,0 +1,188 @@
+{
+  "car_name": "McLAREN SENNA",
+  "upgrades": {
+    "engine": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 132800,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 80
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 298900,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 185
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.7,
+        "cost_dollars": 672400,
+        "cost_gold": null
+      }
+    ],
+    "drivetrain": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 123600,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 75
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 278100,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 170
+      }
+    ],
+    "body": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 98200,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 60
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 220900,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 135
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.5,
+        "cost_dollars": 497000,
+        "cost_gold": null
+      }
+    ],
+    "suspension": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 113300,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 70
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 254900,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 155
+      }
+    ],
+    "exhaust": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 112000,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 70
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.8,
+        "cost_dollars": 252100,
+        "cost_gold": null
+      }
+    ],
+    "brakes": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 86600,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 50
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 194900,
+        "cost_gold": null
+      }
+    ],
+    "tires_wheels": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 104000,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 60
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 233900,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 145
+      }
+    ]
+  },
+  "pr_stock": 66.2
+}

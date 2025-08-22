@@ -1,0 +1,186 @@
+{
+  "car_name": "AUTOMOBILI PININFARINA BATTISTA EDIZIONE NINO FARINA",
+  "upgrades": {
+    "engine": [
+      {
+        "level": 1,
+        "pr_increase": 0.8,
+        "cost_dollars": 119500,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 70
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.8,
+        "cost_dollars": 269000,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 160
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.8,
+        "cost_dollars": 605200,
+        "cost_gold": null
+      },
+      {
+        "level": 6,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 365
+      }
+    ],
+    "drivetrain": [
+      {
+        "level": 1,
+        "pr_increase": 1.1,
+        "cost_dollars": 111200,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 1.0,
+        "cost_dollars": null,
+        "cost_gold": 65
+      },
+      {
+        "level": 3,
+        "pr_increase": 1.1,
+        "cost_dollars": 250300,
+        "cost_gold": null
+      }
+    ],
+    "body": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 88400,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 50
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 198800,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 120
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.6,
+        "cost_dollars": 447300,
+        "cost_gold": null
+      }
+    ],
+    "suspension": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 102000,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 60
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.8,
+        "cost_dollars": 229400,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 140
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.7,
+        "cost_dollars": 516200,
+        "cost_gold": null
+      }
+    ],
+    "brakes": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 78000,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 46
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 175400,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 105
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.6,
+        "cost_dollars": 394700,
+        "cost_gold": null
+      }
+    ],
+    "tires_wheels": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 93600,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 55
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 210500,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.8,
+        "cost_dollars": null,
+        "cost_gold": 125
+      }
+    ]
+  },
+  "pr_stock": 80.2
+}

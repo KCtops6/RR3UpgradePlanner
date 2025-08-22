@@ -1,0 +1,188 @@
+{
+  "car_name": "ORECA 07 LMP2",
+  "upgrades": {
+    "engine": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 77525,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 75
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 166125,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 135
+      },
+      {
+        "level": 5,
+        "pr_increase": 0.6,
+        "cost_dollars": 332250,
+        "cost_gold": null
+      }
+    ],
+    "drivetrain": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 76405,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 75
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 163725,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 135
+      }
+    ],
+    "body": [
+      {
+        "level": 1,
+        "pr_increase": 0.5,
+        "cost_dollars": 69475,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 65
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 148875,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 120
+      }
+    ],
+    "suspension": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 70084,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 70
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.6,
+        "cost_dollars": 150180,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.6,
+        "cost_dollars": null,
+        "cost_gold": 125
+      }
+    ],
+    "exhaust": [
+      {
+        "level": 1,
+        "pr_increase": 0.7,
+        "cost_dollars": 56840,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.7,
+        "cost_dollars": null,
+        "cost_gold": 55
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.7,
+        "cost_dollars": 121800,
+        "cost_gold": null
+      }
+    ],
+    "brakes": [
+      {
+        "level": 1,
+        "pr_increase": 0.4,
+        "cost_dollars": 55125,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 55
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.4,
+        "cost_dollars": 118125,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 95
+      }
+    ],
+    "tires_wheels": [
+      {
+        "level": 1,
+        "pr_increase": 0.6,
+        "cost_dollars": 66150,
+        "cost_gold": null
+      },
+      {
+        "level": 2,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 65
+      },
+      {
+        "level": 3,
+        "pr_increase": 0.5,
+        "cost_dollars": 141750,
+        "cost_gold": null
+      },
+      {
+        "level": 4,
+        "pr_increase": 0.5,
+        "cost_dollars": null,
+        "cost_gold": 115
+      }
+    ]
+  },
+  "pr_stock": 78.5
+}
