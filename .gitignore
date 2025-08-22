@@ -12,7 +12,6 @@ env/
 
 # Ignore build artifacts
 build/
-dist/
 *.spec
 
 # Ignore folders for specific updates (if you want to exclude them)
