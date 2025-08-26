@@ -1,0 +1,25 @@
+{
+  "car_name": "NISSAN 350Z (Z33)",
+  "pr_stock": 8.3,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 1.0, "cost_dollars": 4300, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.0, "cost_dollars": 6500, "cost_gold": null },
+      { "level": 3, "pr_increase": 1.0, "cost_dollars": 9800, "cost_gold": null },
+      { "level": 4, "pr_increase": 1.1, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 1.2, "cost_dollars": 4000, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.2, "cost_dollars": 6000, "cost_gold": null },
+      { "level": 3, "pr_increase": 1.2, "cost_dollars": 9100, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 1.0, "cost_dollars": 2800, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.1, "cost_dollars": 4200, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 1.3, "cost_dollars": 3400, "cost_gold": null },
+      { "level": 2, "pr_increase": 1.3, "cost_dollars": 5000, "cost_gold": null }
+    ]
+  }
+}

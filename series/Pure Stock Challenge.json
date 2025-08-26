@@ -1,10 +1,10 @@
 {
   "series_name": "Pure Stock Challenge",
   "cars": [
-    "NISSAN SILVIA (S15)",
-    "FORD FOCUS RS",
-    "DODGE CHALLENGER RT",
-    "BMW 1 SERIES M COUPE"
+    { "car": "NISSAN SILVIA (S15)", "showcase": true },
+    { "car": "FORD FOCUS RS", "showcase": true },
+    { "car": "DODGE CHALLENGER RT", "showcase": true },
+    { "car": "BMW 1 SERIES M COUPE", "showcase": true }
   ],
   "max_required_pr": 22.0
 }

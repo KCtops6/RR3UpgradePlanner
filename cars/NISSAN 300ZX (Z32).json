@@ -1,0 +1,48 @@
+{
+  "car_name": "NISSAN 300ZX (Z32)",
+  "pr_stock": 4.4,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 19900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 16 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 44800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 36 },
+      { "level": 5, "pr_increase": 0.8, "cost_dollars": 100800, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 18500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 15 },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": 41700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 34 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 14700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 12 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 33100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 26 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 74500, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 17000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 14 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 38200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 30 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 1.0, "cost_dollars": 16800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 14 },
+      { "level": 3, "pr_increase": 1.0, "cost_dollars": 37800, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 13000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 10 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 29200, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 15600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 12 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 35100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 28 }
+    ]
+  }
+}

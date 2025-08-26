@@ -1,0 +1,46 @@
+{
+  "car_name": "NISSAN SKYLINE 2000 GT-R (KPGC10)",
+  "pr_stock": 0.1,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 4300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": 6500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 2 },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": 14800, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 6 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 4000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 6100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 2 },
+      { "level": 4, "pr_increase": 0.2, "cost_dollars": 13700, "cost_gold": null }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 3200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 1 },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 7300, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 3700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 5600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 2 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 3700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 5500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 2 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 2800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": 4300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 1 },
+      { "level": 4, "pr_increase": 0.2, "cost_dollars": 9600, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 3400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 5100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 2 }
+    ]
+  }
+}

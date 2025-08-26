@@ -1,0 +1,10 @@
+{
+  "series_name": "6 Cyl Annihilation Series",
+  "cars": [
+    { "car": "NISSAN SKYLINE GT-R V-SPEC (R34)", "showcase": true },
+    { "car": "NISSAN 370Z (Z34)", "showcase": true },
+    { "car": "BMW 1 SERIES M COUPE", "showcase": true },
+    { "car": "BMW Z4 SDRIVE35IS", "showcase": true }
+  ],
+  "max_required_pr": 29.0
+}

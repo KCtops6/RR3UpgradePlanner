@@ -1,0 +1,10 @@
+{
+  "series_name": "Global Production Pursuit",
+  "cars": [
+    { "car": "CHEVROLET COBALT SS", "showcase": true },
+    { "car": "NISSAN SKYLINE GT-R V-SPEC (R34)", "showcase": true },
+    { "car": "DODGE CHALLENGER RT", "showcase": true },
+    { "car": "BMW Z4 M COUPE", "showcase": true }
+  ],
+  "max_required_pr": 23.0
+}

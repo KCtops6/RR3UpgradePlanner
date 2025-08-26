@@ -1,0 +1,44 @@
+{
+  "car_name": "AUDI R8 LMS ULTRA",
+  "pr_stock": 50.4,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 19500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 29200, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 12 },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": 65700, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 26 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 18100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 27200, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 40700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 16 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 14400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 21600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 9 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 16600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 24900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 10 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 16400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 24600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 10 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 12700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 19000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 7 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 15200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 22800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 9 }
+    ]
+  }
+}

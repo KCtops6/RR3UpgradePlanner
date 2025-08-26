@@ -1,0 +1,9 @@
+{
+  "series_name": "The Stradale eXXperience",
+  "cars": [
+    { "car": "PORSCHE 911 TURBO S" },
+    { "car": "LAMBORGHINI SESTO ELEMENTO" },
+    { "car": "FERRARI SF90 XX STRADALE" }
+  ],
+  "max_required_pr": 94.5
+}

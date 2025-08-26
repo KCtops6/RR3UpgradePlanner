@@ -1,0 +1,48 @@
+{
+  "car_name": "ALFA ROMEO 4C",
+  "pr_stock": 29.4,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 26600, "cost_gold": 12 },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 18 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 59800, "cost_gold": 28 },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 44 },
+      { "level": 5, "pr_increase": 0.8, "cost_dollars": 134500, "cost_gold": 65 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 24700, "cost_gold": 12 },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 18 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 55600, "cost_gold": 26 },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 40 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 19600, "cost_gold": 9 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 14 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 44200, "cost_gold": 22 },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 32 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 99400, "cost_gold": 48 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 22700, "cost_gold": 10 },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 16 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 51000, "cost_gold": 25 },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 38 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 22400, "cost_gold": 10 },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 16 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 50400, "cost_gold": 25 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 17300, "cost_gold": 8 },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 12 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 39000, "cost_gold": 18 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 20800, "cost_gold": 10 },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 15 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 46800, "cost_gold": 22 },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 35 }
+    ]
+  }
+}

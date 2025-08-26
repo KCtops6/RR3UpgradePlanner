@@ -1,0 +1,7 @@
+{
+  "series_name": "Eternal Koenigsegg",
+  "cars": [
+    { "car": "KOENIGSEGG CC850", "showcase": true }
+  ],
+  "max_required_pr": 104.4
+}

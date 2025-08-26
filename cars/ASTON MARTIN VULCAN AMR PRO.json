@@ -1,5 +1,6 @@
 {
   "car_name": "ASTON MARTIN VULCAN AMR PRO",
+  "exclusive_series": true,
   "upgrades": {
     "engine": [
       {

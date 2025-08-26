@@ -1,0 +1,36 @@
+{
+  "car_name": "BMW Z4 SDRIVE35IS",
+  "pr_stock": 19.3,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 5100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 7700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 11500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 17300, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 7 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 4800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 7100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 10700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": 16100, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 6 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 4400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 6500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 9800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 5000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 7500, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 4000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 6000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 9000, "cost_gold": null }
+    ]
+  }
+}

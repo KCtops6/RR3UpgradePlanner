@@ -1,0 +1,12 @@
+{
+  "series_name": "Road Car International",
+  "cars": [
+    { "car": "HYUNDAI VELOSTER TURBO", "showcase": true },
+    { "car": "NISSAN SILVIA (S15)", "showcase": true },
+    { "car": "FORD FOCUS RS", "showcase": true },
+    { "car": "LEXUS IS 350 F SPORT (2014)", "showcase": true },
+    { "car": "NISSAN 350Z (Z33)", "showcase": true },
+    { "car": "BMW Z4 M COUPE", "showcase": true }
+  ],
+  "max_required_pr": 20.0
+}

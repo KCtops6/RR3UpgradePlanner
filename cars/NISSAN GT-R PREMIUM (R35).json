@@ -1,0 +1,38 @@
+{
+  "car_name": "NISSAN GT-R PREMIUM (R35)",
+  "pr_stock": 46.2,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 9000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 13500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 20300, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 30500, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 12 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 8400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 12600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 18900, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 7 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 7700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 11600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 7600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 11400, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 5900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 8800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 13300, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 7100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 10600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 4 }
+    ]
+  }
+}

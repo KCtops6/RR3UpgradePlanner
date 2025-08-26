@@ -1,0 +1,48 @@
+{
+  "car_name": "NISSAN 240Z (S30)",
+  "pr_stock": 0.6,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 7400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 5 },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 16700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 12 },
+      { "level": 5, "pr_increase": 0.3, "cost_dollars": 37600, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 6900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 5 },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": 15600, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 10 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 5500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 4 },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 12400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 9 },
+      { "level": 5, "pr_increase": 0.2, "cost_dollars": 27800, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 6300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 4 },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 14300, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 10 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 6300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 4 },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": 14100, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 4900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 3 },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 10900, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 5800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 4 },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 13100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 9 }
+    ]
+  }
+}

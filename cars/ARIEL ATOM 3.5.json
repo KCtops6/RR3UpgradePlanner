@@ -1,0 +1,49 @@
+{
+  "car_name": "ARIEL ATOM 3.5",
+  "pr_stock": 44.4,
+  "upgrades": {
+    "engine": [
+  { "level": 1, "pr_increase": 0.6, "cost_dollars": 13500, "cost_gold": null },
+  { "level": 2, "pr_increase": 0.5, "cost_dollars": 20300, "cost_gold": null },
+  { "level": 3, "pr_increase": 0.6, "cost_dollars": 30500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 12 },
+  { "level": 5, "pr_increase": 0.5, "cost_dollars": 68600, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 28 },
+  { "level": 7, "pr_increase": 0.5, "cost_dollars": 154300, "cost_gold": null },
+      { "level": 8, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 60 }
+    ],
+    "drivetrain": [
+  { "level": 1, "pr_increase": 0.8, "cost_dollars": 12600, "cost_gold": null },
+  { "level": 2, "pr_increase": 0.7, "cost_dollars": 18900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 7 },
+  { "level": 4, "pr_increase": 0.8, "cost_dollars": 42500, "cost_gold": null }
+    ],
+    "body": [
+  { "level": 1, "pr_increase": 0.6, "cost_dollars": 10000, "cost_gold": null },
+  { "level": 2, "pr_increase": 0.5, "cost_dollars": 15000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 6 },
+  { "level": 4, "pr_increase": 0.5, "cost_dollars": 33800, "cost_gold": null }
+    ],
+    "suspension": [
+  { "level": 1, "pr_increase": 0.7, "cost_dollars": 11600, "cost_gold": null },
+  { "level": 2, "pr_increase": 0.6, "cost_dollars": 17300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 7 },
+  { "level": 4, "pr_increase": 0.7, "cost_dollars": 39000, "cost_gold": null }
+    ],
+    "exhaust": [
+  { "level": 1, "pr_increase": 0.8, "cost_dollars": 11400, "cost_gold": null },
+  { "level": 2, "pr_increase": 0.7, "cost_dollars": 17100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 7 }
+    ],
+    "brakes": [
+  { "level": 1, "pr_increase": 0.6, "cost_dollars": 8800, "cost_gold": null },
+  { "level": 2, "pr_increase": 0.6, "cost_dollars": 13300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "tires_wheels": [
+  { "level": 1, "pr_increase": 0.8, "cost_dollars": 10600, "cost_gold": null },
+  { "level": 2, "pr_increase": 0.7, "cost_dollars": 15900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 6 }
+    ]
+  }
+}

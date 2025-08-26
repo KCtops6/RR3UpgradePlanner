@@ -1,0 +1,50 @@
+{
+  "car_name": "PORSCHE CAYMAN GT4",
+  "pr_stock": 29.2,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 22300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 33500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 12 },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": 75300, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 30 },
+      { "level": 6, "pr_increase": 0.6, "cost_dollars": 169400, "cost_gold": null },
+      { "level": 7, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 70 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 20800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 8 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 46700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 18 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 16500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 6 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 37100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 15 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 83500, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 34 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 19000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 28600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 10 },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": 64200, "cost_gold": null }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 18800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": 28200, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 10 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 14600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 21800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 9 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 17500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": 26200, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 10 }
+    ]
+  }
+}

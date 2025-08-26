@@ -1,0 +1,8 @@
+{
+  "series_name": "Decades of Focus",
+  "cars": [
+    { "car": "FORD FOCUS RS" },
+    { "car": "FORD FOCUS ST" }
+  ],
+  "max_required_pr": 27.6
+}

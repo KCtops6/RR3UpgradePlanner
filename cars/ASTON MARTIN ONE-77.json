@@ -1,0 +1,47 @@
+{
+  "car_name": "ASTON MARTIN ONE-77",
+  "pr_stock": 53.8,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 95600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 55 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 215200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 125 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 484100, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 285 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 89000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 50 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 200200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 115 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 70700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 42 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 159000, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 81600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 48 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 183500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 105 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 80700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 48 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 181500, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 62400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 36 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 140300, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 74800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 44 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 168400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 100 }
+    ]
+  }
+}

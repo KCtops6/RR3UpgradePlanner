@@ -1,0 +1,9 @@
+{
+  "series_name": "Bugatti Blitz",
+  "cars": [
+    { "car": "BUGATTI EB 110 SUPER SPORT" },
+    { "car": "BUGATTI DIVO" },
+    { "car": "BUGATTI CENTODIECI" }
+  ],
+  "max_required_pr": 93.4
+}

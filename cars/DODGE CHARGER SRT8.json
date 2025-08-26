@@ -1,0 +1,48 @@
+{
+  "car_name": "DODGE CHARGER SRT8",
+  "pr_stock": 14.5,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 4300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 6400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 9700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 14500, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.4, "cost_dollars": 21800, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 9 },
+      { "level": 7, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 12 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 4000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 6000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 9000, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 4700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 2 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 5500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 2 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 12400, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 5400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 8200, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 2800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 4200, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 1 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 3300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 5000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 7600, "cost_gold": null }
+    ]
+  }
+}

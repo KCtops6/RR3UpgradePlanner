@@ -1,0 +1,48 @@
+{
+  "car_name": "HYUNDAI VELOSTER TURBO",
+  "pr_stock": 1.6,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 3900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 5800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 8800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": 13200, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": 5400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": 8200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.2, "cost_dollars": 12200, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 2900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": 4300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 1 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 3300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": 4900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": 7500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.2, "cost_dollars": 11200, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 3300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 4900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": 7400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.2, "cost_dollars": 2500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.2, "cost_dollars": 3800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 1 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 3000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 4500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.2, "cost_dollars": null, "cost_gold": 1 }
+    ]
+  }
+}

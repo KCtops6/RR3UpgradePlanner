@@ -1,0 +1,36 @@
+{
+  "car_name": "DODGE CHALLENGER SRT8",
+  "pr_stock": 17.2,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 4400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 6600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 9900, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": 14800, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 6 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 4100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 6100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 9200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 13800, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 5600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 8500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 2900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 4300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 6500, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 3400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 5100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 7800, "cost_gold": null }
+    ]
+  }
+}

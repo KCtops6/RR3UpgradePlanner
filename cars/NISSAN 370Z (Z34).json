@@ -1,0 +1,36 @@
+{
+  "car_name": "NISSAN 370Z (Z34)",
+  "pr_stock": 19.1,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 4500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 6800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 10200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 15300, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 6 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 4200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 6300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 9500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 14200, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 5800, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 8700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 2900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 4400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 6700, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 3500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 5300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 8000, "cost_gold": null }
+    ]
+  }
+}

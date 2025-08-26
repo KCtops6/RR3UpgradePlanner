@@ -1,0 +1,47 @@
+{
+  "car_name": "ASTON MARTIN VANTAGE GTE (2012)",
+  "pr_stock": 72.2,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 129100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 50 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 290500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 120 },
+      { "level": 5, "pr_increase": 0.4, "cost_dollars": 653600, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 270 },
+      { "level": 7, "pr_increase": 0.5, "cost_dollars": 1470600, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 120100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 50 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 270300, "cost_gold": null }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 95400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 38 },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 214700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 85 },
+      { "level": 5, "pr_increase": 0.4, "cost_dollars": 483100, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 110100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 45 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 247800, "cost_gold": null }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 108900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 45 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 245000, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 84200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 35 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 189400, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 101600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 42 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 227300, "cost_gold": null }
+    ]
+  }
+}

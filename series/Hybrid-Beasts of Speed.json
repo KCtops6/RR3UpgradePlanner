@@ -1,0 +1,9 @@
+{
+  "series_name": "Hybrid-Beasts of Speed",
+  "cars": [
+    { "car": "LAMBORGHINI SIÁN FKP 37" },
+    { "car": "PORSCHE 918 SPYDER WEISSACH PACKAGE" },
+    { "car": "MCLAREN SPEEDTAIL (2020)" }
+  ],
+  "max_required_pr": 91.7
+}

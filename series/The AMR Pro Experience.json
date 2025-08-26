@@ -1,0 +1,7 @@
+{
+  "series_name": "The AMR Pro Experience",
+  "cars": [
+    { "car": "ASTON MARTIN VULCAN AMR PRO", "showcase": true }
+  ],
+  "max_required_pr": 89.4
+}

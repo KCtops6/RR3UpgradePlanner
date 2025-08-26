@@ -1,0 +1,51 @@
+{
+  "car_name": "FORD MUSTANG GT PREMIUM",
+  "pr_stock": 20.4,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 26600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 10 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 59800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 24 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 134500, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 55 },
+      { "level": 7, "pr_increase": 0.6, "cost_dollars": 302500, "cost_gold": null }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 24700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": 37100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 15 },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": 83400, "cost_gold": null }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 19600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 8 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 44200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 18 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 99400, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.5, "cost_dollars": 149100, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 22700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 34000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 14 },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": 76500, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 30 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 22400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 9 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 50400, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 17300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 26000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 10 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 20800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 8 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 12 }
+    ]
+  }
+}

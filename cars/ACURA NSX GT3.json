@@ -2,186 +2,46 @@
   "car_name": "ACURA NSX GT3",
   "upgrades": {
     "engine": [
-      {
-        "level": 1,
-        "pr_increase": 0.7,
-        "cost_dollars": 130700,
-        "cost_gold": null
-      },
-      {
-        "level": 2,
-        "pr_increase": 0.8,
-        "cost_dollars": null,
-        "cost_gold": 75
-      },
-      {
-        "level": 3,
-        "pr_increase": 0.7,
-        "cost_dollars": 294100,
-        "cost_gold": null
-      },
-      {
-        "level": 4,
-        "pr_increase": 0.7,
-        "cost_dollars": null,
-        "cost_gold": 170
-      },
-      {
-        "level": 5,
-        "pr_increase": 0.8,
-        "cost_dollars": 661700,
-        "cost_gold": null
-      }
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 130700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 294100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 170 },
+      { "level": 5, "pr_increase": 0.8, "cost_dollars": 661700, "cost_gold": null }
     ],
     "drivetrain": [
-      {
-        "level": 1,
-        "pr_increase": 0.7,
-        "cost_dollars": 121600,
-        "cost_gold": null
-      },
-      {
-        "level": 2,
-        "pr_increase": 0.8,
-        "cost_dollars": null,
-        "cost_gold": 70
-      },
-      {
-        "level": 3,
-        "pr_increase": 0.7,
-        "cost_dollars": 273600,
-        "cost_gold": null
-      },
-      {
-        "level": 4,
-        "pr_increase": 0.7,
-        "cost_dollars": null,
-        "cost_gold": 155
-      }
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 121600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 70 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 273600, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 155 }
     ],
     "body": [
-      {
-        "level": 1,
-        "pr_increase": 0.6,
-        "cost_dollars": 96600,
-        "cost_gold": null
-      },
-      {
-        "level": 2,
-        "pr_increase": 0.6,
-        "cost_dollars": null,
-        "cost_gold": 55
-      },
-      {
-        "level": 3,
-        "pr_increase": 0.6,
-        "cost_dollars": 217400,
-        "cost_gold": null
-      },
-      {
-        "level": 4,
-        "pr_increase": 0.6,
-        "cost_dollars": null,
-        "cost_gold": 125
-      }
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 96600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 55 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 217400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 125 }
     ],
     "suspension": [
-      {
-        "level": 1,
-        "pr_increase": 0.7,
-        "cost_dollars": 111500,
-        "cost_gold": null
-      },
-      {
-        "level": 2,
-        "pr_increase": 0.7,
-        "cost_dollars": null,
-        "cost_gold": 65
-      },
-      {
-        "level": 3,
-        "pr_increase": 0.7,
-        "cost_dollars": 250800,
-        "cost_gold": null
-      },
-      {
-        "level": 4,
-        "pr_increase": 0.7,
-        "cost_dollars": null,
-        "cost_gold": 145
-      }
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 111500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 65 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 250800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 145 }
     ],
     "exhaust": [
-      {
-        "level": 1,
-        "pr_increase": 0.9,
-        "cost_dollars": 110200,
-        "cost_gold": null
-      },
-      {
-        "level": 2,
-        "pr_increase": 0.8,
-        "cost_dollars": null,
-        "cost_gold": 60
-      },
-      {
-        "level": 3,
-        "pr_increase": 0.8,
-        "cost_dollars": 248000,
-        "cost_gold": null
-      }
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 110200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 60 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 248000, "cost_gold": null }
     ],
     "brakes": [
-      {
-        "level": 1,
-        "pr_increase": 0.5,
-        "cost_dollars": 85200,
-        "cost_gold": null
-      },
-      {
-        "level": 2,
-        "pr_increase": 0.6,
-        "cost_dollars": null,
-        "cost_gold": 48
-      },
-      {
-        "level": 3,
-        "pr_increase": 0.5,
-        "cost_dollars": 191800,
-        "cost_gold": null
-      },
-      {
-        "level": 4,
-        "pr_increase": 0.5,
-        "cost_dollars": null,
-        "cost_gold": 110
-      }
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 85200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 48 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 191800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 110 }
     ],
     "tires_wheels": [
-      {
-        "level": 1,
-        "pr_increase": 0.6,
-        "cost_dollars": 102300,
-        "cost_gold": null
-      },
-      {
-        "level": 2,
-        "pr_increase": 0.7,
-        "cost_dollars": null,
-        "cost_gold": 55
-      },
-      {
-        "level": 3,
-        "pr_increase": 0.6,
-        "cost_dollars": 230100,
-        "cost_gold": null
-      },
-      {
-        "level": 4,
-        "pr_increase": 0.7,
-        "cost_dollars": null,
-        "cost_gold": 130
-      }
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 102300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 55 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 230100, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 130 }
     ]
   },
   "pr_stock": 65.2

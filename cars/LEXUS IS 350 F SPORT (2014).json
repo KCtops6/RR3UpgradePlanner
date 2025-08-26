@@ -1,0 +1,48 @@
+{
+  "car_name": "LEXUS IS 350 F SPORT (2014)",
+  "pr_stock": 5.9,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.3, "cost_dollars": 4200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 6300, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 9600, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.3, "cost_dollars": 14400, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 6 },
+      { "level": 6, "pr_increase": 0.3, "cost_dollars": 32400, "cost_gold": null },
+      { "level": 7, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 12 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 5900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 8900, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 4700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 1 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.3, "cost_dollars": 5400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 2 },
+      { "level": 4, "pr_increase": 0.4, "cost_dollars": 12300, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.3, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 5400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 2 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 2800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 4100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 1 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 3300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 5000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 2 }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "car_name": "BMW Z4 M COUPE",
+  "pr_stock": 12.4,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 4600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": 6900, "cost_gold": null },
+      { "level": 3, "pr_increase": 1.0, "cost_dollars": 10400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 4300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": 6400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 9700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 3000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 4500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 6800, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.9, "cost_dollars": 3600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": 5400, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.9, "cost_dollars": 8100, "cost_gold": null }
+    ]
+  }
+}

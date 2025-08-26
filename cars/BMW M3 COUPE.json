@@ -1,0 +1,36 @@
+{
+  "car_name": "BMW M3 COUPE",
+  "pr_stock": 21.4,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 5000, "cost_gold": 1 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 7500, "cost_gold": 2 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 11300, "cost_gold": 3 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 17000, "cost_gold": 5 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 7 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 4700, "cost_gold": 1 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 7000, "cost_gold": 2 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 10500, "cost_gold": 3 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 15800, "cost_gold": 5 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 6 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 4300, "cost_gold": 1 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 6400, "cost_gold": 1 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 9600, "cost_gold": 2 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 3300, "cost_gold": 2 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 4900, "cost_gold": 3 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 7400, "cost_gold": 4 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 3900, "cost_gold": 1 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 5900, "cost_gold": 2 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 8900, "cost_gold": 3 }
+    ]
+  }
+}

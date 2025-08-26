@@ -1,0 +1,47 @@
+{
+  "car_name": "DODGE CHALLENGER SRT HELLCAT",
+  "pr_stock": 36.4,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 23900, "cost_gold": 15 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 22 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 53800, "cost_gold": 34 },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 50 },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": 121000, "cost_gold": 75 },
+      { "level": 6, "pr_increase": 0.5, "cost_dollars": 181500, "cost_gold": 115 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 22200, "cost_gold": 14 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 20 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 50100, "cost_gold": 32 },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 48 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 17700, "cost_gold": 10 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 16 },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 39800, "cost_gold": 25 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 38 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 20400, "cost_gold": 12 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 18 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 45900, "cost_gold": 28 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 44 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 20200, "cost_gold": 12 },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 18 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 45400, "cost_gold": 28 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 15600, "cost_gold": 10 },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 15 },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 35100, "cost_gold": 22 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 18700, "cost_gold": 12 },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 18 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 42100, "cost_gold": 26 }
+    ]
+  }
+}

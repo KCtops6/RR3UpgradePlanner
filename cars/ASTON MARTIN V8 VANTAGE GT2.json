@@ -1,0 +1,42 @@
+{
+  "car_name": "ASTON MARTIN V8 VANTAGE GT2",
+  "pr_stock": 57.0,
+  "upgrades": {
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 45843, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 24 },
+      { "level": 3, "pr_increase": 0.8, "cost_dollars": 98235, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 42 },
+      { "level": 5, "pr_increase": 0.8, "cost_dollars": 196470, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.9, "cost_dollars": null, "cost_gold": 80 },
+      { "level": 7, "pr_increase": 0.8, "cost_dollars": 294705, "cost_gold": null }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 41685, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 22 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 89325, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 38 },
+      { "level": 5, "pr_increase": 0.7, "cost_dollars": 178650, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 70 },
+      { "level": 7, "pr_increase": 0.7, "cost_dollars": 267975, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 33075, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 16 },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 70875, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 30 },
+      { "level": 5, "pr_increase": 0.6, "cost_dollars": 141750, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 55 },
+      { "level": 7, "pr_increase": 0.6, "cost_dollars": 212625, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 42050, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 22 },
+      { "level": 3, "pr_increase": 0.7, "cost_dollars": 90108, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 40 },
+      { "level": 5, "pr_increase": 0.8, "cost_dollars": 180216, "cost_gold": null },
+      { "level": 6, "pr_increase": 0.8, "cost_dollars": null, "cost_gold": 75 },
+      { "level": 7, "pr_increase": 0.7, "cost_dollars": 270324, "cost_gold": null }
+    ]
+  }
+}

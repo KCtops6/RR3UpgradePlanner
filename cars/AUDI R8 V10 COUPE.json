@@ -1,0 +1,38 @@
+{
+  "car_name": "AUDI R8 V10 COUPE",
+  "pr_stock": 44.6,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 10000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 14900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 22400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 33600, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 14 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 9300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 13900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": 20800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 8 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 8500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 12700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.8, "cost_dollars": 8400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 12600, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 6500, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 9700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 14600, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 7800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 11700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 4 }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "car_name": "CHEVROLET COBALT SS",
+  "pr_stock": 3.7,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 4000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 6000, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 9200, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 3700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 5600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 2 },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": 12800, "cost_gold": null },
+      { "level": 5, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3000, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 4500, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 6800, "cost_gold": null }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 3400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 5200, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 7800, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 3400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 5100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 7700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 3 }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 2600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 3900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": 6000, "cost_gold": null }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.5, "cost_dollars": 3200, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 4700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 7200, "cost_gold": null }
+    ]
+  }
+}

@@ -120,37 +120,24 @@ def print_upgrade_summary_to_strings(upgrade_plan, final_pr, discount_percent, b
 def format_upgrade_tree(tree):
     return "".join(str(level) for level in tree)
 
-def get_update_folders():
-    """Return list of update files inside updates/ folder"""
-    updates_dir = resource_path("updates")
-    if not os.path.isdir(updates_dir):
-        return []
-    return [f[:-5] for f in os.listdir(updates_dir) if f.endswith(".json")]
-
-
-
 # --- GUI class ---
-
 class RR3HelperGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("RR3 Helper GUI")
 
         # === Top Frame ===
+
         top_frame = ttk.Frame(root, padding=10)
         top_frame.pack(side=tk.TOP, fill=tk.X)
+        ttk.Label(top_frame, text="Search Car:").grid(row=0, column=0, sticky=tk.W)
+        self.car_search_var = tk.StringVar()
+        self.car_search_entry = ttk.Entry(top_frame, textvariable=self.car_search_var, width=20)
+        self.car_search_entry.grid(row=0, column=1, padx=5)
+        self.car_search_var.trace_add('write', self.update_car_list)
 
-        # Update selection
-        ttk.Label(top_frame, text="Update:").grid(row=0, column=0, sticky=tk.W)
-        self.update_var = tk.StringVar()
-        self.update_combo = ttk.Combobox(top_frame, textvariable=self.update_var, width=10, postcommand=self.load_updates)
-        self.update_combo.grid(row=0, column=1, padx=5)
-
-        # Car selection
-        ttk.Label(top_frame, text="Car:").grid(row=0, column=2, sticky=tk.W)
+        # Car selection variable (for logic, not for dropdown)
         self.car_var = tk.StringVar()
-        self.car_combo = ttk.Combobox(top_frame, textvariable=self.car_var, width=40, postcommand=self.load_cars)
-        self.car_combo.grid(row=0, column=3, padx=5)
 
         # Starting upgrade tree
         ttk.Label(top_frame, text="Start Tree:").grid(row=0, column=4, sticky=tk.W)
@@ -170,8 +157,6 @@ class RR3HelperGUI:
         self.discount_entry.grid(row=0, column=9, padx=5)
 
         self.pr_entry.bind("<KeyRelease>", self.combined_validation)
-        self.update_combo.bind("<<ComboboxSelected>>", self.combined_validation)
-        self.car_combo.bind("<<ComboboxSelected>>", self.combined_validation)
         self.start_tree_entry.bind("<KeyRelease>", self.combined_validation)
         self.discount_entry.bind("<KeyRelease>", self.combined_validation)
 
@@ -180,9 +165,23 @@ class RR3HelperGUI:
         self.run_button.grid(row=0, column=10, padx=10)
         self.run_button.config(state=tk.DISABLED)  # Start disabled
 
-        # === Bottom Section ===
-        bottom_frame = ttk.Frame(root, padding=10)
-        bottom_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+        # === Main Section Frame ===
+        main_frame = ttk.Frame(root)
+        main_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+
+        # --- Car Listbox (left column) ---
+        carlist_frame = ttk.Frame(main_frame)
+        carlist_frame.pack(side=tk.LEFT, fill=tk.Y)
+        self.car_listbox = tk.Listbox(carlist_frame, width=35, height=30, exportselection=False)
+        self.car_listbox.pack(side=tk.LEFT, fill=tk.Y, padx=(5,0), pady=5)
+        carlist_scroll = ttk.Scrollbar(carlist_frame, orient="vertical", command=self.car_listbox.yview)
+        carlist_scroll.pack(side=tk.LEFT, fill=tk.Y)
+        self.car_listbox.config(yscrollcommand=carlist_scroll.set)
+        self.car_listbox.bind("<<ListboxSelect>>", self.on_car_listbox_select)
+
+        # --- Bottom Section (right of car list) ---
+        bottom_frame = ttk.Frame(main_frame, padding=10)
+        bottom_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         # Treeview with scrollbar for upgrade plan (left)
         columns = ("Category Level", "PR Increase", "Total PR", "Cost", "Total Dollars", "Total Gold")
@@ -203,22 +202,14 @@ class RR3HelperGUI:
         # To store car file mapping
         self.car_file_map = {}
 
-    def load_updates(self):
-        """Populate update versions based on folder structure"""
-        updates = get_update_folders()
-        self.update_combo['values'] = updates
+        # Populate car listbox on startup
+        self.update_car_list()
 
-    def load_cars(self):
-        """Populate car list, filtered by update if selected"""
-        update = self.update_var.get()
+    def get_all_cars(self):
         cars_dir = resource_path("cars")
-
         if not os.path.isdir(cars_dir):
-            self.car_combo['values'] = []
-            return
-
+            return []
         all_cars = []
-        # load car names from cars/ JSONs
         for f in os.listdir(cars_dir):
             if f.endswith(".json"):
                 try:
@@ -228,23 +219,30 @@ class RR3HelperGUI:
                         all_cars.append(car_name)
                 except Exception:
                     pass
+        return sorted(all_cars)
 
-        # if update selected, filter
-        if update:
-            update_file = resource_path(f"updates/{update}.json")
-            if os.path.isfile(update_file):
-                try:
-                    with open(update_file, "r", encoding="utf-8") as uf:
-                        update_data = json.load(uf)
-                        cars_in_update = update_data.get("cars", [])
-                        all_cars = [c for c in all_cars if c in cars_in_update]
-                except Exception:
-                    pass
+    def update_car_list(self, *args):
+        search = self.car_search_var.get().lower()
+        all_cars = self.get_all_cars()
+        if search:
+            filtered = [c for c in all_cars if search in c.lower()]
+        else:
+            filtered = all_cars
+        # Update the Listbox
+        self.car_listbox.delete(0, tk.END)
+        for car in filtered:
+            self.car_listbox.insert(tk.END, car)
 
-        self.car_combo['values'] = sorted(all_cars)
+    def on_car_listbox_select(self, event):
+        selection = self.car_listbox.curselection()
+        if selection:
+            car_name = self.car_listbox.get(selection[0])
+            self.car_var.set(car_name)
+            self.combined_validation()
+    # Populate car listbox on startup
+    # (moved to __init__)
 
     def run_calculation(self):
-        update = self.update_var.get()
         car = self.car_var.get()
         if not car:
             messagebox.showerror("Missing Input", "Please select a car.")
@@ -403,4 +401,4 @@ if __name__ == "__main__":
     app = RR3HelperGUI(root)
     root.mainloop()
 
-# pyinstaller --onefile --windowed --add-data "vXX.X;vXX.X" RR3_upgrades_app.py
+# pyinstaller --onefile --add-data "cars;cars" RR3_upgrades_app.py

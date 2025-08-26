@@ -1,0 +1,40 @@
+{
+  "car_name": "DODGE VIPER SRT10 ACR-X",
+  "pr_stock": 44.5,
+  "upgrades": {
+    "engine": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 11400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 17100, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": 25700, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 10 }
+    ],
+    "drivetrain": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 10600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 15900, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 6 }
+    ],
+    "body": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 8400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": 12700, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 5 }
+    ],
+    "suspension": [
+      { "level": 1, "pr_increase": 0.6, "cost_dollars": 9700, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": 14600, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 6 }
+    ],
+    "exhaust": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 9600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 14400, "cost_gold": null }
+    ],
+    "brakes": [
+      { "level": 1, "pr_increase": 0.4, "cost_dollars": 7400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.4, "cost_dollars": 11200, "cost_gold": null },
+      { "level": 3, "pr_increase": 0.4, "cost_dollars": null, "cost_gold": 4 }
+    ],
+    "tires_wheels": [
+      { "level": 1, "pr_increase": 0.7, "cost_dollars": 8900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": 13400, "cost_gold": null }
+    ]
+  }
+}

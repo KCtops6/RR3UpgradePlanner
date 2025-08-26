@@ -1,0 +1,48 @@
+{
+  "car_name": "ACURA NSX TYPE S",
+  "pr_stock": 48.9,
+  "upgrades": {
+    "engine": [
+  { "level": 1, "pr_increase": 0.6, "cost_dollars": 63800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 50 },
+  { "level": 3, "pr_increase": 0.6, "cost_dollars": 143500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 120 },
+  { "level": 5, "pr_increase": 0.6, "cost_dollars": 322800, "cost_gold": null }
+    ],
+    "drivetrain": [
+  { "level": 1, "pr_increase": 0.7, "cost_dollars": 59300, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 50 },
+  { "level": 3, "pr_increase": 0.7, "cost_dollars": 133500, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 110 }
+    ],
+    "body": [
+  { "level": 1, "pr_increase": 0.5, "cost_dollars": 47100, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 40 },
+  { "level": 3, "pr_increase": 0.4, "cost_dollars": 106000, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 90 },
+  { "level": 5, "pr_increase": 0.5, "cost_dollars": 238600, "cost_gold": null }
+    ],
+    "suspension": [
+  { "level": 1, "pr_increase": 0.6, "cost_dollars": 54400, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 46 },
+  { "level": 3, "pr_increase": 0.7, "cost_dollars": 122400, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 105 }
+    ],
+    "exhaust": [
+  { "level": 1, "pr_increase": 0.7, "cost_dollars": 53800, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.7, "cost_dollars": null, "cost_gold": 46 },
+  { "level": 3, "pr_increase": 0.8, "cost_dollars": 121000, "cost_gold": null }
+    ],
+    "brakes": [
+  { "level": 1, "pr_increase": 0.6, "cost_dollars": 41600, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 35 },
+  { "level": 3, "pr_increase": 0.6, "cost_dollars": 93600, "cost_gold": null }
+    ],
+    "tires_wheels": [
+  { "level": 1, "pr_increase": 0.6, "cost_dollars": 49900, "cost_gold": null },
+      { "level": 2, "pr_increase": 0.6, "cost_dollars": null, "cost_gold": 42 },
+  { "level": 3, "pr_increase": 0.6, "cost_dollars": 112300, "cost_gold": null },
+      { "level": 4, "pr_increase": 0.5, "cost_dollars": null, "cost_gold": 95 }
+    ]
+  }
+}

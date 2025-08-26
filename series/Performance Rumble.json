@@ -1,0 +1,11 @@
+{
+  "series_name": "Performance Rumble",
+  "cars": [
+    { "car": "DODGE CHALLENGER SRT8", "showcase": true },
+    { "car": "NISSAN 370Z (Z34)", "showcase": true },
+    { "car": "FORD SHELBY GT500", "showcase": true },
+    { "car": "FORD MUSTANG GT PREMIUM", "showcase": true },
+    { "car": "BMW M3 GTS", "showcase": true }
+  ],
+  "max_required_pr": 36.0
+}
