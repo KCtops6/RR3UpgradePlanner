@@ -7,9 +7,6 @@ __pycache__/
 venv/
 env/
 
-# Ignore executables
-*.exe
-
 # Ignore build artifacts
 build/
 *.spec
